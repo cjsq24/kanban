@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+}
+
+.draggable-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+button {
+  height: 30px;
+}
+
+.droppable-section {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.flow-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  min-height: 700px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.flow-header {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.flow-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+
+.flow-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.draggable-button {
+  width: 100%;
+  font-size: 16px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.add-task {
+  width: 100%;
+  font-size: 16px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.form-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.form-close-btn {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-content label {
+  color: black;
+}
+
+.form-content input {
+  height: 38px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: #efefef;
+  color: black;
+  padding: 0 10px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.form-footer button {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form-add-button {
+  background: lightblue;
+  color: black;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
